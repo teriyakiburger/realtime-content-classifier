@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Content Classifier</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-header">
+        <p class="eyebrow">Self-hosted demo</p>
+        <h1>Realtime content classifier</h1>
+        <p class="subtitle">Rule-first classification with local LLM fallback.</p>
+        <section class="panel toolbar" aria-label="Classifier controls">
+          <label class="mode-control" for="classifier-mode">Classifier mode
+            <select id="classifier-mode">
+            <option value="rule">Rule</option>
+            <option value="llm">Mistral 7B</option>
+            <option value="hybrid">Hybrid</option>
+            </select>
+          </label>
+          <span id="mode-status" class="mode-status" aria-live="polite">Current mode: Rule</span>
+          <button id="insert-card" class="secondary-button" type="button">Insert sample card</button>
+        </section>
+        <section class="panel hybrid-note" aria-label="Hybrid behavior">
+          <strong>Hybrid behavior</strong>
+          <span>Rule first</span><span aria-hidden="true">→</span><span>confident result: return immediately</span><span aria-hidden="true">→</span><span>uncertain result: local Mistral 7B fallback</span>
+        </section>
+        <details class="panel custom-section">
+          <summary><span class="custom-chevron" aria-hidden="true">›</span><span><strong>Classify custom content</strong><small>Enter a local fixture to test the selected mode.</small></span></summary>
+          <form id="custom-card-form" class="custom-card-form">
+            <label for="custom-title">Title<input id="custom-title" required /></label>
+            <label for="custom-source">Source<input id="custom-source" /></label>
+            <label class="description-field" for="custom-description">Description<textarea id="custom-description" required></textarea></label>
+            <button id="custom-insert" type="submit">Classify custom card</button>
+          </form>
+        </details>
+      </header>
+      <section id="feed" class="feed" aria-live="polite" aria-label="Content feed"></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

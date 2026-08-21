@@ -1,0 +1,7 @@
+[
+  { "id": "tech-001", "text": "TypeScript release notes", "expectedLabel": "TECH", "tags": ["tech"] },
+  { "id": "news-001", "text": "Today's headline", "expectedLabel": "NEWS", "tags": ["news"] },
+  { "id": "entertainment-001", "text": "New movie trailer", "expectedLabel": "ENTERTAINMENT", "tags": ["entertainment"] },
+  { "id": "other-001", "text": "Welcome to the local demo", "expectedLabel": "OTHER", "tags": ["other"] },
+  { "id": "unknown-001", "text": "Ambiguous local fixture", "expectedLabel": "UNKNOWN", "tags": ["ambiguous"] }
+]

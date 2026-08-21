@@ -1,0 +1,7 @@
+{
+  "caseCount": 40,
+  "source": "evaluation-cases.json",
+  "selection": "first 8 cases from each category in file order",
+  "timeoutMs": 60000,
+  "purpose": "single-inference-at-a-time latency measurement"
+}

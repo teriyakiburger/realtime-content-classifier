@@ -1,0 +1,1471 @@
+{
+  "generatedAt": "2026-08-21T16:06:18.746Z",
+  "source": "independent holdout",
+  "caseCount": 50,
+  "models": {
+    "rule": {
+      "name": "Rule",
+      "cases": 50,
+      "accuracy": 0.94,
+      "macroF1": 0.9397129186602872,
+      "perClass": {
+        "TECH": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "NEWS": {
+          "precision": 0.8333333333333334,
+          "recall": 1,
+          "f1": 0.9090909090909091,
+          "support": 10
+        },
+        "ENTERTAINMENT": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "OTHER": {
+          "precision": 1,
+          "recall": 0.9,
+          "f1": 0.9473684210526316,
+          "support": 10
+        },
+        "UNKNOWN": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8,
+          "f1": 0.8421052631578948,
+          "support": 10
+        }
+      },
+      "confusionMatrix": {
+        "TECH": {
+          "TECH": 10,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "NEWS": {
+          "TECH": 0,
+          "NEWS": 10,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "ENTERTAINMENT": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 10,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "OTHER": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 9,
+          "UNKNOWN": 1
+        },
+        "UNKNOWN": {
+          "TECH": 0,
+          "NEWS": 2,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 8
+        }
+      },
+      "unknownRate": 0.18,
+      "invalidOrErrorRate": 0.18,
+      "llmCalls": 0,
+      "llmCallRate": 0,
+      "meanLatencyMs": 0.010420000000000868,
+      "medianLatencyMs": 0.0024999999999977263,
+      "p95LatencyMs": 0.023199999999974352,
+      "totalWallClockMs": 0.7342000000000155,
+      "rows": [
+        {
+          "id": "holdout-tech-001",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.24229999999997176
+        },
+        {
+          "id": "holdout-tech-002",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.10470000000000823
+        },
+        {
+          "id": "holdout-tech-003",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.023199999999974352
+        },
+        {
+          "id": "holdout-tech-004",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.00570000000001869
+        },
+        {
+          "id": "holdout-tech-005",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0033999999999991815
+        },
+        {
+          "id": "holdout-tech-006",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.004199999999997317
+        },
+        {
+          "id": "holdout-tech-007",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0033999999999991815
+        },
+        {
+          "id": "holdout-tech-008",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.003200000000020964
+        },
+        {
+          "id": "holdout-tech-009",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.005099999999998772
+        },
+        {
+          "id": "holdout-tech-010",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.019300000000015416
+        },
+        {
+          "id": "holdout-news-001",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.004899999999992133
+        },
+        {
+          "id": "holdout-news-002",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.003500000000002501
+        },
+        {
+          "id": "holdout-news-003",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0021999999999877673
+        },
+        {
+          "id": "holdout-news-004",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0021999999999877673
+        },
+        {
+          "id": "holdout-news-005",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.003200000000020964
+        },
+        {
+          "id": "holdout-news-006",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.002299999999991087
+        },
+        {
+          "id": "holdout-news-007",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.001999999999981128
+        },
+        {
+          "id": "holdout-news-008",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0030000000000143245
+        },
+        {
+          "id": "holdout-news-009",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0020000000000095497
+        },
+        {
+          "id": "holdout-news-010",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0020000000000095497
+        },
+        {
+          "id": "holdout-ent-001",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.002999999999985903
+        },
+        {
+          "id": "holdout-ent-002",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0018000000000029104
+        },
+        {
+          "id": "holdout-ent-003",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0018000000000029104
+        },
+        {
+          "id": "holdout-ent-004",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0028000000000076852
+        },
+        {
+          "id": "holdout-ent-005",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0016999999999995907
+        },
+        {
+          "id": "holdout-ent-006",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.001599999999996271
+        },
+        {
+          "id": "holdout-ent-007",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0024999999999977263
+        },
+        {
+          "id": "holdout-ent-008",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0015000000000213731
+        },
+        {
+          "id": "holdout-ent-009",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.001999999999981128
+        },
+        {
+          "id": "holdout-ent-010",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0024999999999977263
+        },
+        {
+          "id": "holdout-other-001",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.001999999999981128
+        },
+        {
+          "id": "holdout-other-002",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0018000000000029104
+        },
+        {
+          "id": "holdout-other-003",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0027000000000043656
+        },
+        {
+          "id": "holdout-other-004",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0017999999999744887
+        },
+        {
+          "id": "holdout-other-005",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0018000000000029104
+        },
+        {
+          "id": "holdout-other-006",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.008900000000011232
+        },
+        {
+          "id": "holdout-other-007",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0027000000000043656
+        },
+        {
+          "id": "holdout-other-008",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0021000000000128694
+        },
+        {
+          "id": "holdout-other-009",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.002600000000001046
+        },
+        {
+          "id": "holdout-other-010",
+          "expected": "OTHER",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.006000000000000227,
+          "reason": "conflicting-rules"
+        },
+        {
+          "id": "holdout-unknown-001",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.002899999999982583,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-002",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.003299999999995862,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-003",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.00190000000000623,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-004",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.00190000000000623,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-005",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.006000000000000227,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-006",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0017000000000280124,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-007",
+          "expected": "UNKNOWN",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0020000000000095497
+        },
+        {
+          "id": "holdout-unknown-008",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.0021000000000128694,
+          "reason": "no-rule-match"
+        },
+        {
+          "id": "holdout-unknown-009",
+          "expected": "UNKNOWN",
+          "label": "NEWS",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.00190000000000623
+        },
+        {
+          "id": "holdout-unknown-010",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "rule-only",
+          "llmCalled": false,
+          "latencyMs": 0.00190000000000623,
+          "reason": "no-rule-match"
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Revised Mistral 7B",
+      "cases": 50,
+      "accuracy": 0.98,
+      "macroF1": 0.9799498746867169,
+      "perClass": {
+        "TECH": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "NEWS": {
+          "precision": 0.9090909090909091,
+          "recall": 1,
+          "f1": 0.9523809523809523,
+          "support": 10
+        },
+        "ENTERTAINMENT": {
+          "precision": 1,
+          "recall": 0.9,
+          "f1": 0.9473684210526316,
+          "support": 10
+        },
+        "OTHER": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "UNKNOWN": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        }
+      },
+      "confusionMatrix": {
+        "TECH": {
+          "TECH": 10,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "NEWS": {
+          "TECH": 0,
+          "NEWS": 10,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "ENTERTAINMENT": {
+          "TECH": 0,
+          "NEWS": 1,
+          "ENTERTAINMENT": 9,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "OTHER": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 10,
+          "UNKNOWN": 0
+        },
+        "UNKNOWN": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 10
+        }
+      },
+      "unknownRate": 0.2,
+      "invalidOrErrorRate": 0,
+      "llmCalls": 50,
+      "llmCallRate": 1,
+      "meanLatencyMs": 214.35523400000005,
+      "medianLatencyMs": 150.79520000000002,
+      "p95LatencyMs": 176.04079999999976,
+      "totalWallClockMs": 10718.2544,
+      "rows": [
+        {
+          "id": "holdout-tech-001",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 3236.5863999999997
+        },
+        {
+          "id": "holdout-tech-002",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 156.61329999999998
+        },
+        {
+          "id": "holdout-tech-003",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.0372000000002
+        },
+        {
+          "id": "holdout-tech-004",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.79520000000002
+        },
+        {
+          "id": "holdout-tech-005",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 152.88360000000011
+        },
+        {
+          "id": "holdout-tech-006",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 151.76839999999993
+        },
+        {
+          "id": "holdout-tech-007",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.9326999999994
+        },
+        {
+          "id": "holdout-tech-008",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 151.46950000000015
+        },
+        {
+          "id": "holdout-tech-009",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 152.3679000000002
+        },
+        {
+          "id": "holdout-tech-010",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 152.99159999999938
+        },
+        {
+          "id": "holdout-news-001",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 152.70769999999993
+        },
+        {
+          "id": "holdout-news-002",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.47310000000016
+        },
+        {
+          "id": "holdout-news-003",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 149.83670000000075
+        },
+        {
+          "id": "holdout-news-004",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 151.29069999999956
+        },
+        {
+          "id": "holdout-news-005",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 151.21320000000014
+        },
+        {
+          "id": "holdout-news-006",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.8085000000001
+        },
+        {
+          "id": "holdout-news-007",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 148.8086999999996
+        },
+        {
+          "id": "holdout-news-008",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 149.9933000000001
+        },
+        {
+          "id": "holdout-news-009",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 157.65160000000014
+        },
+        {
+          "id": "holdout-news-010",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 158.82440000000042
+        },
+        {
+          "id": "holdout-ent-001",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 175.4480999999996
+        },
+        {
+          "id": "holdout-ent-002",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 175.16399999999976
+        },
+        {
+          "id": "holdout-ent-003",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 175.08720000000085
+        },
+        {
+          "id": "holdout-ent-004",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 175.6185000000005
+        },
+        {
+          "id": "holdout-ent-005",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 177.4890000000005
+        },
+        {
+          "id": "holdout-ent-006",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 174.9957999999997
+        },
+        {
+          "id": "holdout-ent-007",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 174.29040000000077
+        },
+        {
+          "id": "holdout-ent-008",
+          "expected": "ENTERTAINMENT",
+          "label": "NEWS",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.01839999999993
+        },
+        {
+          "id": "holdout-ent-009",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 176.04079999999976
+        },
+        {
+          "id": "holdout-ent-010",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 175.71610000000055
+        },
+        {
+          "id": "holdout-other-001",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 149.5572000000002
+        },
+        {
+          "id": "holdout-other-002",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.76070000000072
+        },
+        {
+          "id": "holdout-other-003",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.64500000000044
+        },
+        {
+          "id": "holdout-other-004",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 147.4333999999999
+        },
+        {
+          "id": "holdout-other-005",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 148.9933000000001
+        },
+        {
+          "id": "holdout-other-006",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.8135999999995
+        },
+        {
+          "id": "holdout-other-007",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 148.8755000000001
+        },
+        {
+          "id": "holdout-other-008",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 147.3847999999998
+        },
+        {
+          "id": "holdout-other-009",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 148.20000000000073
+        },
+        {
+          "id": "holdout-other-010",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 150.53009999999995
+        },
+        {
+          "id": "holdout-unknown-001",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 137.3702000000012
+        },
+        {
+          "id": "holdout-unknown-002",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 134.5723999999991
+        },
+        {
+          "id": "holdout-unknown-003",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 135.67959999999948
+        },
+        {
+          "id": "holdout-unknown-004",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 136.76860000000124
+        },
+        {
+          "id": "holdout-unknown-005",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 137.5725999999995
+        },
+        {
+          "id": "holdout-unknown-006",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 136.41159999999945
+        },
+        {
+          "id": "holdout-unknown-007",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 137.11809999999969
+        },
+        {
+          "id": "holdout-unknown-008",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 138.28439999999864
+        },
+        {
+          "id": "holdout-unknown-009",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 134.20730000000003
+        },
+        {
+          "id": "holdout-unknown-010",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "llm-only",
+          "llmCalled": true,
+          "latencyMs": 138.66130000000157
+        }
+      ]
+    },
+    "hybrid": {
+      "name": "Hybrid",
+      "cases": 50,
+      "accuracy": 0.96,
+      "macroF1": 0.9595959595959597,
+      "perClass": {
+        "TECH": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "NEWS": {
+          "precision": 0.8333333333333334,
+          "recall": 1,
+          "f1": 0.9090909090909091,
+          "support": 10
+        },
+        "ENTERTAINMENT": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "OTHER": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "support": 10
+        },
+        "UNKNOWN": {
+          "precision": 1,
+          "recall": 0.8,
+          "f1": 0.888888888888889,
+          "support": 10
+        }
+      },
+      "confusionMatrix": {
+        "TECH": {
+          "TECH": 10,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "NEWS": {
+          "TECH": 0,
+          "NEWS": 10,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "ENTERTAINMENT": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 10,
+          "OTHER": 0,
+          "UNKNOWN": 0
+        },
+        "OTHER": {
+          "TECH": 0,
+          "NEWS": 0,
+          "ENTERTAINMENT": 0,
+          "OTHER": 10,
+          "UNKNOWN": 0
+        },
+        "UNKNOWN": {
+          "TECH": 0,
+          "NEWS": 2,
+          "ENTERTAINMENT": 0,
+          "OTHER": 0,
+          "UNKNOWN": 8
+        }
+      },
+      "unknownRate": 0.16,
+      "invalidOrErrorRate": 0,
+      "llmCalls": 9,
+      "llmCallRate": 0.18,
+      "meanLatencyMs": 24.542216000000007,
+      "medianLatencyMs": 0.002800000000206637,
+      "p95LatencyMs": 136.9372999999996,
+      "totalWallClockMs": 1227.356600000001,
+      "rows": [
+        {
+          "id": "holdout-tech-001",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.019699999998920248
+        },
+        {
+          "id": "holdout-tech-002",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.004199999999400461
+        },
+        {
+          "id": "holdout-tech-003",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002800000000206637
+        },
+        {
+          "id": "holdout-tech-004",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002800000000206637
+        },
+        {
+          "id": "holdout-tech-005",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.003400000001420267
+        },
+        {
+          "id": "holdout-tech-006",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002999999998792191
+        },
+        {
+          "id": "holdout-tech-007",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002899999999499414
+        },
+        {
+          "id": "holdout-tech-008",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002800000000206637
+        },
+        {
+          "id": "holdout-tech-009",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0030999999999039574
+        },
+        {
+          "id": "holdout-tech-010",
+          "expected": "TECH",
+          "label": "TECH",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002599999999802094
+        },
+        {
+          "id": "holdout-news-001",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002799999998387648
+        },
+        {
+          "id": "holdout-news-002",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.008400000000619912
+        },
+        {
+          "id": "holdout-news-003",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0030999999999039574
+        },
+        {
+          "id": "holdout-news-004",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002899999999499414
+        },
+        {
+          "id": "holdout-news-005",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0030000000006111804
+        },
+        {
+          "id": "holdout-news-006",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002599999999802094
+        },
+        {
+          "id": "holdout-news-007",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002699999999094871
+        },
+        {
+          "id": "holdout-news-008",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.005400000000008731
+        },
+        {
+          "id": "holdout-news-009",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002800000000206637
+        },
+        {
+          "id": "holdout-news-010",
+          "expected": "NEWS",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002899999999499414
+        },
+        {
+          "id": "holdout-ent-001",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.014900000000125146
+        },
+        {
+          "id": "holdout-ent-002",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002800000000206637
+        },
+        {
+          "id": "holdout-ent-003",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0020999999997002305
+        },
+        {
+          "id": "holdout-ent-004",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0023999999993975507
+        },
+        {
+          "id": "holdout-ent-005",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002300000000104774
+        },
+        {
+          "id": "holdout-ent-006",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002200000000811997
+        },
+        {
+          "id": "holdout-ent-007",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002300000000104774
+        },
+        {
+          "id": "holdout-ent-008",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.00210000000151922
+        },
+        {
+          "id": "holdout-ent-009",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0024999999986903276
+        },
+        {
+          "id": "holdout-ent-010",
+          "expected": "ENTERTAINMENT",
+          "label": "ENTERTAINMENT",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0018999999992956873
+        },
+        {
+          "id": "holdout-other-001",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002699999999094871
+        },
+        {
+          "id": "holdout-other-002",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002500000000509317
+        },
+        {
+          "id": "holdout-other-003",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002500000000509317
+        },
+        {
+          "id": "holdout-other-004",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002300000000104774
+        },
+        {
+          "id": "holdout-other-005",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0021999999989930075
+        },
+        {
+          "id": "holdout-other-006",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.00210000000151922
+        },
+        {
+          "id": "holdout-other-007",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.0019999999985884642
+        },
+        {
+          "id": "holdout-other-008",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002200000000811997
+        },
+        {
+          "id": "holdout-other-009",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.002200000000811997
+        },
+        {
+          "id": "holdout-other-010",
+          "expected": "OTHER",
+          "label": "OTHER",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 152.2017999999989
+        },
+        {
+          "id": "holdout-unknown-001",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 137.78880000000026
+        },
+        {
+          "id": "holdout-unknown-002",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 133.29000000000087
+        },
+        {
+          "id": "holdout-unknown-003",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 136.9372999999996
+        },
+        {
+          "id": "holdout-unknown-004",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 135.16190000000097
+        },
+        {
+          "id": "holdout-unknown-005",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 131.6226000000006
+        },
+        {
+          "id": "holdout-unknown-006",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 133.12099999999919
+        },
+        {
+          "id": "holdout-unknown-007",
+          "expected": "UNKNOWN",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.010400000001027365
+        },
+        {
+          "id": "holdout-unknown-008",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 133.872800000001
+        },
+        {
+          "id": "holdout-unknown-009",
+          "expected": "UNKNOWN",
+          "label": "NEWS",
+          "strategy": "hybrid-rule",
+          "llmCalled": false,
+          "latencyMs": 0.009700000000520959
+        },
+        {
+          "id": "holdout-unknown-010",
+          "expected": "UNKNOWN",
+          "label": "UNKNOWN",
+          "strategy": "hybrid-llm-fallback",
+          "llmCalled": true,
+          "latencyMs": 132.95440000000053
+        }
+      ]
+    }
+  }
+}

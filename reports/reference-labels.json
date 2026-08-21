@@ -1,0 +1,402 @@
+[
+  {
+    "id": "tech-001",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-002",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-003",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-004",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-005",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-006",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-007",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-008",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-009",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-010",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-011",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-012",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-013",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-014",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-015",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-016",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-017",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-018",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-019",
+    "label": "TECH"
+  },
+  {
+    "id": "tech-020",
+    "label": "TECH"
+  },
+  {
+    "id": "news-001",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-002",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-003",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-004",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-005",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-006",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-007",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-008",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-009",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-010",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-011",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-012",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-013",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-014",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-015",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-016",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-017",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-018",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-019",
+    "label": "NEWS"
+  },
+  {
+    "id": "news-020",
+    "label": "NEWS"
+  },
+  {
+    "id": "ent-001",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-002",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-003",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-004",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-005",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-006",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-007",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-008",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-009",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-010",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-011",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-012",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-013",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-014",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-015",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-016",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-017",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-018",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-019",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "ent-020",
+    "label": "ENTERTAINMENT"
+  },
+  {
+    "id": "other-001",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-002",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-003",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-004",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-005",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-006",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-007",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-008",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-009",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-010",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-011",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-012",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-013",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-014",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-015",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-016",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-017",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-018",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-019",
+    "label": "OTHER"
+  },
+  {
+    "id": "other-020",
+    "label": "OTHER"
+  },
+  {
+    "id": "unknown-001",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-002",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-003",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-004",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-005",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-006",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-007",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-008",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-009",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-010",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-011",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-012",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-013",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-014",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-015",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-016",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-017",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-018",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-019",
+    "label": "UNKNOWN"
+  },
+  {
+    "id": "unknown-020",
+    "label": "UNKNOWN"
+  }
+]
